@@ -18,9 +18,7 @@ export default function App() {
     message: "",
   });
 
-  const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${
-    import.meta.env.VITE_API_KEY
-  }&lang=es&q=`;
+  const API_WEATHER = `https://api.weatherapi.com/v1/current.json?key=${"40d7b26b6af04c86ab3184937230303"}&lang=es&q=`;
 
   const onSubmit = async (e) => {
     e.preventDefault();
