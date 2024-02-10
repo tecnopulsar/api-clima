@@ -54,8 +54,8 @@ export default function App() {
 
   return (
     <Container maxWidth="xs" sx={{ mt: 2 }}>
-      <Typography variant="h3" component="h1" align="center" gutterBottom>
-        api Clima
+      <Typography variant="h1" component="h1" align="left" gutterBottom>
+        Datos del Clima
       </Typography>
       <Box
         sx={{ display: "grid", gap: 2 }}
